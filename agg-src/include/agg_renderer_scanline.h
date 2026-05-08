@@ -748,7 +748,8 @@ namespace agg
                                0, 
                                sl_len * sizeof(cover_type));
 
-                        int sl_y = std::numeric_limits<int>::max();
+                        // int sl_y = std::numeric_limits<int>::max();
+                        int sl_y = 0x7fffffff;
                         unsigned i;
                         for(i = 0; i < num_styles; i++)
                         {

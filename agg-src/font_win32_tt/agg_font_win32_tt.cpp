@@ -561,7 +561,7 @@ namespace agg
             }
       
             sprintf(m_signature, 
-                    "%s,%u,%d,%d:%dx%d,%d,%d,%d,%d,%d,%08X", 
+                    "%s,%lu,%d,%d:%dx%d,%d,%d,%d,%d,%d,%08X", 
                     m_typeface,
                     m_char_set,
                     int(m_glyph_rendering),
